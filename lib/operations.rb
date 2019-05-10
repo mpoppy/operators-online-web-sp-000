@@ -8,8 +8,7 @@ def unsafe?(speed)
 	end
 end
 
-
-
+#use the ternary operator
 def not_safe?(speed)
-
+	if speed > 60 || speed < 40 ? true : false
 end
